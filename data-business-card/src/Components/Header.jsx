@@ -11,7 +11,7 @@ export default function Header() {
     </div>
       <div className='contact-info'>
         <a className="email" href='mailto:rajunior@example.com'><span><i class="fa-solid fa-envelope"></i></span>Email</a>
-        <a className="linkedin" href='https://linkedin.com/in/rajuniorcampbell'><span><i class="fa-brands fa-linkedin"></i></span>LinkedIn</a>
+        <a className="linkedin" href='https://www.linkedin.com/in/rajunior-campbell-a1128723b/'><span><i class="fa-brands fa-linkedin"></i></span>LinkedIn</a>
       </div>
       </div>
      </header>
