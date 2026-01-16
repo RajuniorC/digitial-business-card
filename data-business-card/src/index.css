@@ -1,0 +1,125 @@
+body{
+  padding: 4em;
+  background-color: #23252c;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+.container{
+  background:#1a1b21;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.profile-avatar{
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.profile-info{
+  padding: 1em; 
+  text-align: center;
+}
+
+h1{
+  margin-bottom: 0;
+  font-size: 2.3em;
+}
+
+.job-title{
+  margin-top: 0.2em;
+  margin-bottom: 0em;
+  font-size: 1.2em;
+  color: #FBBF91;
+}
+
+.github{
+  margin-top: 0;
+  font-size: 0.85em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  color: #cccccc;
+
+}
+
+.github-icon{
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url('./src/assets/github-icon-alt.webp');
+  background-size: cover;
+  
+}
+
+.contact-info{
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.contact-info a{
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 0.5em 2em;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.email{
+  background-color: #ffffff;
+  color: #1a1b21;
+}
+.email span{
+  margin-right: 0.5em;
+}
+
+.linkedin{
+  background-color: #0077b5;
+  color: #ffffff;
+}
+.linkedin span{
+  margin-right: 0.5em;
+}
+
+.contact-info a:hover, .contact-info a:focus{
+  background-color: #FBBF91;
+  color: #1a1b21;
+}
+.contact-info a:focus{
+  outline: none;
+  box-shadow: 0 0 0 3px #FBBF91;
+}
+
+main{
+  padding: 1em 2em;
+}
+
+main p{
+  line-height: 1.5;
+  font-size: 0.85em;
+  color: #cccccc;
+}
+
+footer{
+  padding: 1em 2em;
+  background: #161619;
+  text-align: center;
+  color: #cccccc;
+  font-size: 0.85em;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  margin-top: 0;
+  font-size: 3em;
+  padding: 0.2em 0;
+}
